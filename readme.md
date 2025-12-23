@@ -19,10 +19,9 @@
 > ### [⛪ 배포 링크 ](https://account.ozcoding.site/)
 
 ---
-## 🗣️ 프로젝트 발표 영상 & 발표 문서
+## 🗣️ 프로젝트 기간
 
 > ### 🗓️ 2025. 11. 21 - 2025. 12. 26
-> ### [📺 발표 영상 ](https://drive.google.com/drive/folders/13M4xtePsAaBG7ZkVIroeNVsCUQz7SwkU)
 
 ---
 
@@ -36,7 +35,7 @@
 
 - 비밀번호 재설정, 회원 탈퇴 및 복구 지원
 
-강의 서비스
+🎓 강의 서비스
 
 - Inflearn / Udemy 강의 크롤링
 
@@ -44,7 +43,7 @@
 
 - 로그인 유저 대상 개인화 추천
 
-스터디 그룹
+📚 스터디 그룹
 
 - 강의 기반 스터디 그룹 생성 및 참여
 
@@ -52,7 +51,7 @@
 
 - 종료 후 익명 리뷰 작성
 
-스터디 구인 공고
+📢 스터디 구인 공고
 
 - 공고 작성 / 수정 / 삭제 (태그, 파일 첨부)
 
@@ -60,23 +59,23 @@
 
 - 지원 → 승인 시 스터디 자동 편입
 
-실시간 채팅
+💬 실시간 채팅
 
 - 스터디 그룹별 WebSocket 채팅
 
 - 읽음 처리 및 무한 스크롤
 
-스터디 기록 & AI 요약
+📝 스터디 기록 & AI 요약
 
 - 학습 기록 작성 및 공유
 
 - AI 기반 학습 내용 요약 및 키워드 추출
 
-알림 시스템
+🔔 알림 시스템
 
 - 지원 결과, 스터디 일정, 기록 등록 알림 제공
 
-어드민
+🧑‍💼 어드민
 
 - 회원 / 강의 / 스터디 / 공고 / 리뷰 관리
 
@@ -150,48 +149,15 @@ oz_externship_be/
 ├── docker-compose.local.yml   # 로컬 환경 테스트 용 도커 컨테이너 정의 파일
 └── README.md                  # 프로젝트 소개서
 ```
+
 - 앱은 각 도메인 별로 구분하여 생성하며, app name은 'snake case' 를 적용합니다.
   
 
 ## 🧰 사용 스택
 
 ### :wrench: System Architecture
-<br>
-
-### FE
-<div align=center>
-  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"> 
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"> 
-  <img src="https://img.shields.io/badge/react-00A8E1?style=for-the-badge&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white">
-  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black">
-  <img src="https://img.shields.io/badge/Husky-000000?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/lint--staged-000000?style=for-the-badge&logo=eslint&logoColor=white">
-
-  <br>
-
-  <img src="https://img.shields.io/badge/React_Router_v7-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
-  <img src="https://img.shields.io/badge/Zustand-181717?style=for-the-badge&logo=zustand&logoColor=white">
-  <img src="https://img.shields.io/badge/TanStack_Query_v5-FF4154?style=for-the-badge&logo=react-query&logoColor=white">
-  <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white">
-  <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge">
-
-  <br>
-  <img src="https://img.shields.io/badge/Material--UI_v7-007FFF?style=for-the-badge&logo=mui&logoColor=white">
-  <img src="https://img.shields.io/badge/Emotion-C865B9?style=for-the-badge">
-  <img src="https://img.shields.io/badge/React_Icons-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/dnd--kit-000000?style=for-the-badge&logo=react&logoColor=white">
-  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
-  <img src="https://img.shields.io/badge/MSW-E95420?style=for-the-badge&logo=msw&logoColor=white">
 
 
-
-
-  
-  <br>
-</div>
-
-### BE
 <div align=center> 
   <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"> 
   <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white">
@@ -222,7 +188,6 @@ oz_externship_be/
   <br>
 </div>
 
-
 --- 
 
 ## :busts_in_silhouette: 팀 소개
@@ -233,12 +198,14 @@ oz_externship_be/
 
 | <a href=https://github.com/moxopills><img src="https://avatars.githubusercontent.com/u/219768803?s=80&v=4" width=100px/><br/><sub><b>@moxopills</b></sub></a><br/> |  <a href=https://github.com/Kang9805><img src="https://avatars.githubusercontent.com/u/217697213?s=60&v=4" width=100px/><br/><sub><b>@Kang9805</b></sub></a><br/> | <a href=https://github.com/romiii35><img src="https://avatars.githubusercontent.com/u/219593253?s=64&v=4" width=100px/><br/><sub><b>@romiii35</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|
-| 박민수 | 강성연 | 강윤혜 |<br>
+| 박민수(팀장) | 강성연 | 강윤혜 |
 
 > ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
 
+<br>
+
 ### 담당 기능 :
-- 구인 공고, 공고 지원 기능 API, 사용자 맞춤 공고 추천(협업 필터링), S3 Util Class 구현<br>
+- 구인 공고, 공고 지원 기능 API, 사용자 맞춤 공고 추천(협업 필터링), S3 Util Class 구현
 
 ### 📢 스터디 구인 공고
 - 공고 등록 & 관리
@@ -262,14 +229,15 @@ oz_externship_be/
 
 ---
 
-
 ### BE_2팀
 
 | <a href=https://github.com/LuSiEDa><img src="https://avatars.githubusercontent.com/u/219760531?v=4" width=100px/><br/><sub><b>@LuSiEDa</b></sub></a><br/> |  <a href=https://github.com/s4ngmin-9><img src="https://avatars.githubusercontent.com/u/219594325?v=4" width=100px/><br/><sub><b>@s4ngmin-9</b></sub></a><br/> | <a href=https://github.com/lee-baehyung><img src="https://avatars.githubusercontent.com/u/219762708?v=4" width=100px/><br/><sub><b>@lee-baehyung</b></sub></a><br/> | <a href=https://github.com/han-son-03><img src="https://avatars.githubusercontent.com/u/218101567?v=4" width=100px/><br/><sub><b>@han-son-03</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
-| 곽승현 | 정상민 | 이배형 | 강한손 |<br>
+| 곽승현(팀장) | 정상민 | 이배형 | 강한손 |
 
 > ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+
+<br>
 
 ### 담당 기능 :
 - 채팅 및 알림 기능 구현 (웹소켓 및 SSE 처리, Celery를 이용한 비동기처리)<br>
@@ -288,7 +256,7 @@ oz_externship_be/
   - 스케줄 예정 / 당일 알림
   - 스터디 기록 작성 알림
 - 읽음 처리 및 전체 읽음 지원
-
+  
 <br>
 
 ---
@@ -296,9 +264,11 @@ oz_externship_be/
 ### BE_3팀
 | <a href=https://github.com/dothebest9><img src="https://avatars.githubusercontent.com/u/219054343?v=4" width=100px/><br/><sub><b>@dothebest9</b></sub></a><br/> |  <a href=https://github.com/UNGBI78><img src="https://avatars.githubusercontent.com/u/219274926?v=4" width=100px/><br/><sub><b>@UNGBI78</b></sub></a><br/> | <a href=https://github.com/chdan-hub><img src="https://avatars.githubusercontent.com/u/219658891?v=4" width=100px/><br/><sub><b>@chdan-hub</b></sub></a><br/> | <a href=https://github.com/summmer5><img src="https://avatars.githubusercontent.com/u/219632319?v=4" width=100px/><br/><sub><b>@summmer5</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
-| 최선구 | 서웅비 | 박재현 | 김지선 |<br>
+| 최선구(팀장) | 서웅비 | 박재현 | 김지선 |<br>
 
 > ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+
+<br>
 
 ### 담당 기능 :
 - 유저 관련 기능, 인증/인가 API (소셜 로그인(kakao, naver), Twilio(모바일 인증), SMTP(이메일 전송 및 인증))<br>
@@ -331,28 +301,24 @@ oz_externship_be/
   - 즉시 로그아웃
   - 2주 후 데이터 완전 삭제
   - 소셜 로그인 계정 연결 해제 자동 처리
-
-
 <br>
-
 
 ---
+
 ### BE_4팀
+
 | <a href=https://github.com/badatga><img src="https://avatars.githubusercontent.com/u/17699362?v=4" width=100px/><br/><sub><b>@badatga</b></sub></a><br/> |  <a href=https://github.com/TeaCat-Develop><img src="https://avatars.githubusercontent.com/u/217452693?v=4" width=100px/><br/><sub><b>@TeaCat-Develop</b></sub></a><br/> | <a href=https://github.com/BH13KDR><img src="https://avatars.githubusercontent.com/u/219213065?v=4" width=100px/><br/><sub><b>@BH13KDR</b></sub></a><br/> | <a href=https://github.com/codfin02><img src="https://avatars.githubusercontent.com/u/200759918?v=4" width=100px/><br/><sub><b>@codfin02</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
-| 김재호 | 박진영 | 김동렬 | 황성연 |
-<br>
+| 김재호(팀장) | 박진영 | 김동렬 | 황성연 |
 
 > ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
 
-### 담당 기능 :
-- 스터디 관련 기능 API 구현(StudyGroups, Reviews, StudyNotes, StudySchedules)
-
 <br>
 
+### 담당 기능 :
+- 스터디 관련 기능 API 구현(StudyGroups, Reviews, StudyNotes, StudySchedules)<br>
 
-
-### 👥 스터디 그룹
+### 📚 스터디 그룹
 - 스터디 그룹 생성 & 관리
   - 스터디 생성
     - 기간, 인원 수, 강의 선택 가능
@@ -369,15 +335,16 @@ oz_externship_be/
   - 어드민 리뷰 관리 기능 제공
 <br>
 
-
 ---
 
 ### BE_5팀
 | <a href=https://github.com/kickcik><img src="https://avatars.githubusercontent.com/u/218086186?v=4" width=100px/><br/><sub><b>@kickcik</b></sub></a><br/> |  <a href=https://github.com/daebagi><img src="https://avatars.githubusercontent.com/u/218174589?v=4" width=100px/><br/><sub><b>@daebagi</b></sub></a><br/> | <a href=https://github.com/seokhun14><img src="https://avatars.githubusercontent.com/u/214474564?v=4" width=100px/><br/><sub><b>@seokhun14</b></sub></a><br/> | <a href=https://github.com/Junhyeock><img src="https://avatars.githubusercontent.com/u/214911726?v=4" width=100px/><br/><sub><b>@Junhyeock</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
-| 강인찬 | 박대범 | 김석훈 | 이준혁 |<br>
+| 강인찬(팀장) | 박대범 | 김석훈 | 이준혁 |<br>
 
 > ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+
+<br>
 
 ### 담당 기능 :
 - 강의 크롤링 및 강의 관련 API, 사용자 맞춤 강의 추천<br>
@@ -400,63 +367,6 @@ oz_externship_be/
 
 <br>
 
-
----
-
-### FE_1팀
-
-> ### [⛪  FE_1팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team1)
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
-<br>
-
-| <a href=https://github.com/cks-wls><img src="https://avatars.githubusercontent.com/u/134291854?v=4" width=100px/><br/><sub><b>@cks-wls</b></sub></a><br/> | <a href=https://github.com/hwank1><img src="https://avatars.githubusercontent.com/u/223783213?v=4" width=100px/><br/><sub><b>@hwank1</b></sub></a><br/> | <a href=https://github.com/dabinkwon><img src="https://avatars.githubusercontent.com/u/183258837?s=64&v=4" width=100px/><br/><sub><b>@dabinkwon</b></sub></a><br/> |
-|:-------:|:-------:|:-------:|
-|  황찬진 | 기정환 | 권다빈 |
-
-<br>
-
----
-
-### FE_2팀
-
-> ### [⛪  FE_2팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team2)
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
-<br>
-
-| <a href=https://github.com/miloupark><img src="https://avatars.githubusercontent.com/u/136055426?v=4" width=100px/><br/><sub><b>@miloupark</b></sub></a><br/> | <a href=https://github.com/Jay-klmnop><img src="https://avatars.githubusercontent.com/u/215503558?v=4" width=100px/><br/><sub><b>@Jay-klmnop</b></sub></a><br/> |
-|:-------:|:-------:|
-|  박혜빈 |  윤지예 |
-
-<br>
-
----
-
-### FE_3팀
-
-> ### [⛪  FE_3팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team3)
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
-<br>
-
-| <a href=https://github.com/agrade1><img src="https://avatars.githubusercontent.com/u/98932636?v=4" width=100px/><br/><sub><b>@agrade1</b></sub></a><br/> | <a href=https://github.com/yeeun-kor><img src="https://avatars.githubusercontent.com/u/189711671?v=4" width=100px/><br/><sub><b>@yeeun-kor</b></sub></a><br/> |  <a href=https://github.com/KoCeleste><img src="https://avatars.githubusercontent.com/u/217916977?v=4" width=100px/><br/><sub><b>@KoCeleste</b></sub></a><br/> |
-|:-------:|:-------:|:-------:|
-| 강지훈 | 정예은 | 고연우 |
-
-<br>
-
----
-
-### FE_4팀
-
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
-> ### [⛪  FE_4팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team4)
-<br>
-
-| <a href=https://github.com/ppebble><img src="https://avatars.githubusercontent.com/u/92935915?v=4" width=100px/><br/><sub><b>@ppebble</b></sub></a><br/> | <a href=https://github.com/Joydazero><img src="https://avatars.githubusercontent.com/u/36254421?v=4" width=100px/><br/><sub><b>@Joydazero</b></sub></a><br/> |  <a href=https://github.com/eisont><img src="https://avatars.githubusercontent.com/u/87557968?v=4" width=100px/><br/><sub><b>@eisont</b></sub></a><br/> |
-|:-------:|:-------:|:-------:|
-| 이석민 | 조다영 | 김치훈 |
-
-<br>
-
 ---
 
 # 📘 프로젝트 규칙 (Project Rules)
@@ -464,13 +374,31 @@ oz_externship_be/
 ## 📃 공통 규칙
 
 ### 🕒 데일리 스크럼
-- 매일 오전 **11시**, 약 **15분**
+- 매일 오전 **11시**,  약 **15분**
 
 ### 🕑 코어 타임
 - **13:00 ~ 18:00**
 
 ### 🕕 마무리 타임
 - **18:00 ~ 18:40**
+
+### 🕒 하모니데이 (Meeting Day)
+- 매주 월요일 오전 **11시**
+- 프론트엔드·백엔드 협업 미팅 하모니데이(Meeting Day) 진행
+  - 각 팀마다 진행 상황을 공유하고, 기능 구현이나 API 관련 이슈를 함께 맞춰보는 시간
+    
+### 🕒 엔지니어링 데이(Engineering Day)
+- 매주 금요일 오후 **1시**
+  - 익스턴십 기간 동안 새롭게 도입했거나 조사해본 기술에 대해 팀원들과 자유롭게 공유하는 발표 시간
+
+#### 💡 발표 주제 예시
+> ✔ 기능 개발에 적용한 기술 & 도입 이유 <br>
+> ✔ 개발 중 겪은 기술적 문제와 해결 방법 <br>
+> ✔ 도입한 외부 API / 라이브러리 소개 <br>
+> ✔ 팀 내 기술 스택 장단점 분석 <br>
+> ✔ 리팩토링 전/후 코드 비교 <br>
+> ✔ 성능 개선 사례 <br>
+> ✔ 유용했던 툴 / 라이브러리 소개 <br>
 
 ---
 
@@ -496,6 +424,7 @@ oz_externship_be/
 - 🚑 hotfix   : 긴급 수정
 
 ### 아래 1번 문항부터 주석 문구가 빈줄에 주석을 지우고 문항에 대한 내용을 작성하고 커밋을 완료해주세요.
+
 ```
 # 1. 아래 형식에 맞춰 커밋 메시지 타이틀을 작성하세요:
 # <이모지> <타입>: <간결한 커밋 메시지 요약>
@@ -521,17 +450,20 @@ oz_externship_be/
 # 관련 이슈: #123
 
 ```
+
 ---
 
-## 🌿 Branch Naming Convention
+## 🌿 Git Flow
+- 익스턴십에서는 Git Flow를 이용하여 효율적인 Git 협업을 진행하고자 합니다.
+Git Flow는 Vincent Driessen이 제안한 Git 브랜치 전략으로, 개발 프로세스를 구조화하여 협업과 릴리즈 관리를 체계적으로 할 수 있도록 돕는 워크플로우입니다.
 
-- 브랜치 헤더는 Git Convention 참조  (https://www.notion.so/Git-296caf5650aa81b5b3dad60980d55ae5)
-- 이슈 넘버 기반 생성  
-  - 예: `feature/01-component-add`
-- 브랜치 명은 **동사(행위)** 로 마무리  
-- **이슈 1개당 브랜치 1개** (1:1 규칙)
-- 큰 이슈 내 세부 작업 발생 시 **Sub-issue → Sub-branch 생성**  
-  - 예: `feature/05/10-component-skeleton-add`
+기본적으로 다음과 같은 브랜치들을 사용합니다.
+
+  - **main(mastrer)**: 제품의 배포 가능한 최종 상태를 저장하는 브랜치
+  - **develop**: 개발 중인 기능을 통합하는 브랜치
+  - **feature/**: 새로운 기능 개발을 위한 브랜치
+  - **release**/: 배포 준비를 위한 브랜치 ( 익스턴십에서는 사용하지 않습니다. )
+  - **hotfix/**: 운영 중인 서비스의 긴급 수정 사항을 처리하는 브랜치
 
 # 💬 Communication Rules
 - Discord 활용
