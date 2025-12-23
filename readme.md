@@ -23,13 +23,12 @@
 
 > ### 🗓️ 2025. 11. 21 - 2025. 12. 26
 > ### [📺 발표 영상 ](https://drive.google.com/drive/folders/13M4xtePsAaBG7ZkVIroeNVsCUQz7SwkU)
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
 
 ---
 
 ## 🖥️ 서비스 소개
 
-회원 인증
+👤 회원 인증
 
 - 이메일 회원가입 + 휴대폰 인증
 
@@ -82,6 +81,77 @@
 - 회원 / 강의 / 스터디 / 공고 / 리뷰 관리
 
 - 통계 대시보드 제공
+
+---
+
+## 🗂 프로젝트 구조 설명 및 Django App Directory 생성 규칙
+
+```
+oz_externship_be/
+├── .github/                # 깃허브 설정 파일 ( 커밋템플릿, 이슈템플릿, pr 템플릿, CI / CD 등 )
+│   ├── COMMIT_TEMPLATE/    # 하위에 커밋 템플릿을 정의
+│   ├── ISSUE_TEMPLATE/     # 하위에 이슈템플릿을 정의
+│   └── workflows/          # 하위에 CI / CD 스크립트를 정의
+│       ├── checks.yml/     # develop 또는 main 브랜치에 Push 또는 PR Merge 시 데이터 베이스 연결 확인, 코드 포매팅 체크, 테스트 통과 여부를 검사하는 스크립트
+│       ├── dev_deploy.yml/ # develop 브랜치에 Push시 개발 서버에 배포 자동화를 구현한 스크립트
+│       └── prod_deploy.yml/ # develop 브랜치에 Push시 개발 서버에 배포 자동화를 구현한 스크립트
+├── config/                 
+│   ├── __init__.py
+│   ├── settings/
+│   │   ├── base.py         # 프로젝트 전역 공통 설정 파일
+│   │   ├── dev.py          # 개발 서버 프로젝트 전역 설정 파일
+│   │   ├── local.py        # 로컬 환경 프로젝트 전역 설정 파일
+│   │   └── prod.py         # 프로덕션 환경 프로젝트 전역 설정 파일
+│   ├── asgi.py
+│   ├── urls.py
+│   └── wsgi.py
+├── apps/                   # 앱 디렉토리 (앱별로 디렉토리를 나눔)
+│   ├── core/               # 공통 앱 (공통으로 사용되는 utils, base 모델, commands 정의)
+│   │   ├── commands/       # 장고 커맨드 등록 폴더
+│   │   ├── utils/          # 프로젝트 전역에서 공통으로 사용되는 유틸 함수를 정의하는 폴더
+│   │   ├── tests/          # core 내에 정의된 util 메서드 혹은 클래스에 대한 테스트들을 구현하는 폴더
+│   │   └── models.py       # 모든 앱에서 공통으로 사용되는 base 모델 정의 (ex. TimeStampModel)
+│   ├── app_name1/
+│   │   ├── migrations/     # 마이그레이션 파일
+│   │   ├── services/       # 앱에서 사용되는 서비스 로직을 구현하는 폴더 / 서비스 로직
+│   │   ├── tests/          # 앱에서 사용되는 테스트들을 구현하는 폴더
+│   │   ├── models/         # 앱에서 사용되는 모델들을 정의하는 폴더
+│   │   ├── urls/           # 앱 전용 URL 라우팅을 정의하는 폴더
+│   │   ├── serializers/    # 시리얼 라이저 모음 폴더
+│   │   ├── views/          # CBV, FBV 를 구현하는 폴더 / HTTP 호출 관련
+│   │   └── apps.py         # 앱 설정
+│   ├── app_name2/          # 다른 앱
+│   │   ├── migrations/     # 마이그레이션 파일
+│   │   ├── services/       # 앱에서 사용되는 서비스 로직을 구현하는 폴더 / 서비스 로직
+│   │   ├── tests/          # 앱에서 사용되는 테스트들을 구현하는 폴더
+│   │   ├── models/         # 앱에서 사용되는 모델들을 정의하는 폴더
+│   │   ├── urls/           # 앱 전용 URL 라우팅을 정의하는 폴더
+│   │   ├── serializers/    # 시리얼 라이저 모음 폴더
+│   │   ├── views/          # CBV, FBV 를 구현하는 폴더
+│   │   └── apps.py         # 앱 설정
+│   └── ...
+├── envs/                   # 환경변수 파일들
+│   ├── .local.env          # 로컬 환경에서 서버 구동 및 테스트 시 필요한 환경변수
+│   ├── .dev.env            # 개발 서버 환경에서 서버 구동 및 테스트 시 필요한 환경변수
+│   └── .prod.env           # 배포 환경에서 서버 구동 및 테스트 시 필요한 환경변수
+├── resources/              # 초기 설정 파일 및 스크립트, nginx, docker, kubernetes 의 yaml 파일
+│   ├── nginx/
+│   │   ├── Dockerfile       # nginx 이미지 빌드 도커 파일
+│   │   └── nginx.local.conf # 로컬 환경에서 테스트 용 nginx 설정 파일
+│   │   └── nginx.dev.conf   # 개발 서버 환경에서 테스트 용 nginx 설정 파일
+│   │   └── nginx.prod.conf  # 프로덕션 서버 환경에서 테스트 용 nginx 설정 파일
+│   └── scripts/             # 필요한 shell scripts를 모아두는 디렉터리 (test, formatter, create_dummy 등)
+│       ├── code_formatting.sh   # black, isort 코드 포매팅 실행 스크립트
+│       └── test.sh              # mypy 타입 검사 수행 및 전체 테스트코드 실행 시 사용되는 스크립트
+├── manage.py                  # Django 실행 파일
+├── poetry.lock                # poetry 의존성 패키지 설치 정보
+├── pyproject.toml             # poetry 의존성 패키지 목록 및 설정
+├── dockerfile                 # 도커 이미지 빌드 파일
+├── docker-compose.local.yml   # 로컬 환경 테스트 용 도커 컨테이너 정의 파일
+└── README.md                  # 프로젝트 소개서
+```
+- 앱은 각 도메인 별로 구분하여 생성하며, app name은 'snake case' 를 적용합니다.
+  
 
 ## 🧰 사용 스택
 
@@ -160,122 +230,232 @@
 
 ### BE_1팀
 
+
 | <a href=https://github.com/moxopills><img src="https://avatars.githubusercontent.com/u/219768803?s=80&v=4" width=100px/><br/><sub><b>@moxopills</b></sub></a><br/> |  <a href=https://github.com/Kang9805><img src="https://avatars.githubusercontent.com/u/217697213?s=60&v=4" width=100px/><br/><sub><b>@Kang9805</b></sub></a><br/> | <a href=https://github.com/romiii35><img src="https://avatars.githubusercontent.com/u/219593253?s=64&v=4" width=100px/><br/><sub><b>@romiii35</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|
-| 박민수 | 강성연 | 강윤혜 |
+| 박민수 | 강성연 | 강윤혜 |<br>
 
-담당 기능 :
-- 구인 공고, 공고 지원 기능 API, 사용자 맞춤 공고 추천(협업 필터링), S3 Util Class 구현
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
 
-# 📘 프로젝트 규칙 (Project Rules)
+### 담당 기능 :
+- 구인 공고, 공고 지원 기능 API, 사용자 맞춤 공고 추천(협업 필터링), S3 Util Class 구현<br>
 
-### 🕒 데일리 스크럼
-- 매일 오전 **11시**, 약 **15분**
+### 📢 스터디 구인 공고
+- 공고 등록 & 관리
+  - 마크다운 기반 공고 작성
+  - 이미지 / 파일 첨부
+  - 태그 시스템 (검색 + 신규 등록)
+  - 공고 수정 / 삭제
+- 공고 탐색
+  - 무한 스크롤
+  - 검색 / 태그 필터링 / 정렬
+  - 개인화 추천 공고 제공
 
-### 🕑 코어 타임
-- **13:00 ~ 18:00**
+- 지원 시스템
+  - 지원서 작성
+  - 지원 승인 / 거절
+  - 승인 시 자동 스터디 그룹 편입
+  - 지원 내역 관리 (유저 / 어드민)
 
-### 🕕 마무리 타임
-- **18:00 ~ 18:40**
+  
+<br>
 
 ---
-
-
 
 
 ### BE_2팀
 
 | <a href=https://github.com/LuSiEDa><img src="https://avatars.githubusercontent.com/u/219760531?v=4" width=100px/><br/><sub><b>@LuSiEDa</b></sub></a><br/> |  <a href=https://github.com/s4ngmin-9><img src="https://avatars.githubusercontent.com/u/219594325?v=4" width=100px/><br/><sub><b>@s4ngmin-9</b></sub></a><br/> | <a href=https://github.com/lee-baehyung><img src="https://avatars.githubusercontent.com/u/219762708?v=4" width=100px/><br/><sub><b>@lee-baehyung</b></sub></a><br/> | <a href=https://github.com/han-son-03><img src="https://avatars.githubusercontent.com/u/218101567?v=4" width=100px/><br/><sub><b>@han-son-03</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
-| 곽승현 | 정상민 | 이배형 | 강한손 |
+| 곽승현 | 정상민 | 이배형 | 강한손 |<br>
 
-담당 기능 :
-- 채팅 및 알림 기능 구현 (웹소켓 및 SSE 처리, Celery를 이용한 비동기처리)
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
 
+### 담당 기능 :
+- 채팅 및 알림 기능 구현 (웹소켓 및 SSE 처리, Celery를 이용한 비동기처리)<br>
 
-### 📘 프로젝트 규칙 (Project Rules)
+### 💬 실시간 채팅
+- Floating Widget 기반 채팅 UI
+- 스터디 그룹별 채팅방 제공
+- WebSocket 기반 실시간 메시지
+- 읽음 처리 및 무한 스크롤 지원
 
-#### 🕒 데일리 스크럼
-- 매일 오전 **10시 10분**, 약 **15분**
+### 🔔 알림 시스템
+- 실시간 알림 제공
+- 주요 알림 유형:
+  - 공고 지원 / 승인 / 거절
+  - 스터디 참여 / 종료
+  - 스케줄 예정 / 당일 알림
+  - 스터디 기록 작성 알림
+- 읽음 처리 및 전체 읽음 지원
 
-#### 🕑 코어 타임
-- **13:00 ~ 18:00**
-
-#### 🕕 마무리 타임
-- **18:00 ~ 18:40**
+<br>
 
 ---
 
 ### BE_3팀
-
-| <a href=https://github.com/dothebest9><img src="https://avatars.githubusercontent.com/u/219054343?v=4" width=100px/><br/><sub><b>@dothebest9</b></sub></a><br/> |  <a href=https://github.com/UNGBI78><img src="https://avatars.githubusercontent.com/u/219274926?v=4" width=100px/><br/><sub><b>@UNGBI78</b></sub></a><br/> | <a href=https://github.com/chdan-hub><img src="" width=100px/><br/><sub><b>@chdan-hub</b></sub></a><br/> | <a href=https://github.com/summmer5><img src="https://avatars.githubusercontent.com/u/219632319?v=4" width=100px/><br/><sub><b>@summmer5</b></sub></a><br/> |
+| <a href=https://github.com/dothebest9><img src="https://avatars.githubusercontent.com/u/219054343?v=4" width=100px/><br/><sub><b>@dothebest9</b></sub></a><br/> |  <a href=https://github.com/UNGBI78><img src="https://avatars.githubusercontent.com/u/219274926?v=4" width=100px/><br/><sub><b>@UNGBI78</b></sub></a><br/> | <a href=https://github.com/chdan-hub><img src="https://avatars.githubusercontent.com/u/219658891?v=4" width=100px/><br/><sub><b>@chdan-hub</b></sub></a><br/> | <a href=https://github.com/summmer5><img src="https://avatars.githubusercontent.com/u/219632319?v=4" width=100px/><br/><sub><b>@summmer5</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
-| 최선구 | 서웅비 | 박재현 | 김지선 |
+| 최선구 | 서웅비 | 박재현 | 김지선 |<br>
 
-담당 기능 : 
-- 유저 관련 기능, 인증/인가 API (소셜 로그인(kakao, naver), Twilio(모바일 인증), SMTP(이메일 전송 및 인증))
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+
+### 담당 기능 :
+- 유저 관련 기능, 인증/인가 API (소셜 로그인(kakao, naver), Twilio(모바일 인증), SMTP(이메일 전송 및 인증))<br>
+
+### 👤 회원 / 인증 관리
+- 일반 회원가입
+  - 이메일 인증 + 휴대폰 인증을 거친 안전한 회원가입
+  - 필수 정보:
+    - 이메일, 비밀번호, 닉네임, 이름, 휴대폰 번호, 생년월일, 성별
+- 소셜 로그인
+  - Kakao / Naver OAuth2 기반 로그인 & 회원가입
+  - 최초 로그인 시 사용자 정보 자동 저장
+  - 이미 가입된 계정은 자동 로그인 처리
+  - 이메일, 휴대폰 번호 중복 방지
+
+- 로그인 / 로그아웃
+  - 이메일 + 비밀번호 로그인
+  - 로그아웃 시 Access / Refresh Token 만료 처리
+
+- 계정 찾기 & 복구
+  - 이메일 찾기: 휴대폰 인증 기반
+  - 비밀번호 재설정: 이메일 인증 기반
+  - 회원 탈퇴 후 2주 이내 이메일 인증을 통한 계정 복구 가능
+
+- 내 정보 조회 및 수정
+  - 프로필 이미지, 비밀번호, 닉네임, 휴대폰 번호 수정 가능
+  - 휴대폰 번호 변경 시 추가 인증 필수
+
+- 회원 탈퇴
+  - 즉시 로그아웃
+  - 2주 후 데이터 완전 삭제
+  - 소셜 로그인 계정 연결 해제 자동 처리
+
+
+<br>
+
 
 ---
 ### BE_4팀
-
 | <a href=https://github.com/badatga><img src="https://avatars.githubusercontent.com/u/17699362?v=4" width=100px/><br/><sub><b>@badatga</b></sub></a><br/> |  <a href=https://github.com/TeaCat-Develop><img src="https://avatars.githubusercontent.com/u/217452693?v=4" width=100px/><br/><sub><b>@TeaCat-Develop</b></sub></a><br/> | <a href=https://github.com/BH13KDR><img src="https://avatars.githubusercontent.com/u/219213065?v=4" width=100px/><br/><sub><b>@BH13KDR</b></sub></a><br/> | <a href=https://github.com/codfin02><img src="https://avatars.githubusercontent.com/u/200759918?v=4" width=100px/><br/><sub><b>@codfin02</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
 | 김재호 | 박진영 | 김동렬 | 황성연 |
+<br>
 
-담당 기능 :
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+
+### 담당 기능 :
 - 스터디 관련 기능 API 구현(StudyGroups, Reviews, StudyNotes, StudySchedules)
+
+<br>
+
+
+
+### 👥 스터디 그룹
+- 스터디 그룹 생성 & 관리
+  - 스터디 생성
+    - 기간, 인원 수, 강의 선택 가능
+  - 그룹 수정 / 삭제 (리더 전용)
+  - 멤버 관리
+    - 추방, 나가기, 리더 위임
+
+- 스터디 상태 자동 관리
+  - 종료일 기준 자동 상태 변경 (KST 00:01)
+
+- 스터디 리뷰
+  - 종료된 스터디에 한해 리뷰 작성
+  - 익명성 보장
+  - 어드민 리뷰 관리 기능 제공
+<br>
+
 
 ---
 
 ### BE_5팀
-
 | <a href=https://github.com/kickcik><img src="https://avatars.githubusercontent.com/u/218086186?v=4" width=100px/><br/><sub><b>@kickcik</b></sub></a><br/> |  <a href=https://github.com/daebagi><img src="https://avatars.githubusercontent.com/u/218174589?v=4" width=100px/><br/><sub><b>@daebagi</b></sub></a><br/> | <a href=https://github.com/seokhun14><img src="https://avatars.githubusercontent.com/u/214474564?v=4" width=100px/><br/><sub><b>@seokhun14</b></sub></a><br/> | <a href=https://github.com/Junhyeock><img src="https://avatars.githubusercontent.com/u/214911726?v=4" width=100px/><br/><sub><b>@Junhyeock</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
-| 강인찬 | 박대범 | 김석훈 | 이준혁 |
+| 강인찬 | 박대범 | 김석훈 | 이준혁 |<br>
 
-담당 기능 :
-- 강의 크롤링 및 강의 관련 API, 사용자 맞춤 강의 추천
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+
+### 담당 기능 :
+- 강의 크롤링 및 강의 관련 API, 사용자 맞춤 강의 추천<br>
+
+### 🎓 강의 서비스
+- 강의 목록
+  -Inflearn / Udemy 강의 크롤링
+  카드형 목록 + 무한 스크롤
+  검색 / 필터링 / 정렬 기능
+  북마크 지원
+
+- 개인화 추천
+  -로그인 유저 대상 추천 강의 제공
+  협업 필터링 + 콘텐츠 기반 필터링 혼합
+  사용자 선호 카테고리, 검색 기록 활용
+
+- 어드민 - 강의 관리
+  - 강의 목록 / 상세 조회
+  - 매일 자정 자동 크롤링으로 강의 데이터 최신화
+
+<br>
+
 
 ---
 
 ### FE_1팀
 
 > ### [⛪  FE_1팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team1)
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+<br>
 
 | <a href=https://github.com/cks-wls><img src="https://avatars.githubusercontent.com/u/134291854?v=4" width=100px/><br/><sub><b>@cks-wls</b></sub></a><br/> | <a href=https://github.com/hwank1><img src="https://avatars.githubusercontent.com/u/223783213?v=4" width=100px/><br/><sub><b>@hwank1</b></sub></a><br/> | <a href=https://github.com/dabinkwon><img src="https://avatars.githubusercontent.com/u/183258837?s=64&v=4" width=100px/><br/><sub><b>@dabinkwon</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|
 |  황찬진 | 기정환 | 권다빈 |
 
+<br>
 
 ---
 
 ### FE_2팀
 
 > ### [⛪  FE_2팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team2)
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+<br>
 
 | <a href=https://github.com/miloupark><img src="https://avatars.githubusercontent.com/u/136055426?v=4" width=100px/><br/><sub><b>@miloupark</b></sub></a><br/> | <a href=https://github.com/Jay-klmnop><img src="https://avatars.githubusercontent.com/u/215503558?v=4" width=100px/><br/><sub><b>@Jay-klmnop</b></sub></a><br/> |
 |:-------:|:-------:|
 |  박혜빈 |  윤지예 |
+
+<br>
 
 ---
 
 ### FE_3팀
 
 > ### [⛪  FE_3팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team3)
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+<br>
 
 | <a href=https://github.com/agrade1><img src="https://avatars.githubusercontent.com/u/98932636?v=4" width=100px/><br/><sub><b>@agrade1</b></sub></a><br/> | <a href=https://github.com/yeeun-kor><img src="https://avatars.githubusercontent.com/u/189711671?v=4" width=100px/><br/><sub><b>@yeeun-kor</b></sub></a><br/> |  <a href=https://github.com/KoCeleste><img src="https://avatars.githubusercontent.com/u/217916977?v=4" width=100px/><br/><sub><b>@KoCeleste</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|
 | 강지훈 | 정예은 | 고연우 |
 
+<br>
+
 ---
 
 ### FE_4팀
 
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
 > ### [⛪  FE_4팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team4)
+<br>
 
 | <a href=https://github.com/ppebble><img src="https://avatars.githubusercontent.com/u/92935915?v=4" width=100px/><br/><sub><b>@ppebble</b></sub></a><br/> | <a href=https://github.com/Joydazero><img src="https://avatars.githubusercontent.com/u/36254421?v=4" width=100px/><br/><sub><b>@Joydazero</b></sub></a><br/> |  <a href=https://github.com/eisont><img src="https://avatars.githubusercontent.com/u/87557968?v=4" width=100px/><br/><sub><b>@eisont</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|
 | 이석민 | 조다영 | 김치훈 |
+
+<br>
 
 ---
 
@@ -303,27 +483,44 @@
 
 ---
 
-## ✏️ Git Commit Convention
+# ✏️ Git Commit Convention
 
-### ✔ Commit Rules
-1. 적절한 **커밋 접두사 사용**
-2. 커밋 메시지는 **의도를 명확하게 작성**
-3. 마지막에 **이슈 번호 연결 필수** → `#123`
+- ✨ feat     : 새로운 기능 추가
+- 🐛 fix      : 버그 수정
+- 💡 chore    : 기능 추가 없이 코드 수정 (오타, 주석 등)
+- 🎨 style    : 코드 포매팅 수정
+- 📝 docs     : 문서 수정 (README 등)
+- 🚚 build    : 빌드 관련 파일 수정
+- ✅ test     : 테스트 코드 추가/변경 (프로덕션 코드 변경 없음)
+- ♻️ refactor : 리팩터링 (기능 변화 없음)
+- 🚑 hotfix   : 긴급 수정
 
-### ✔ Commit Prefix
-| 접두사 | 설명 |
-|-------|------|
-| Feat | 새로운 기능 추가 |
-| Add | 에셋/리소스 추가 |
-| Fix | 버그 수정 |
-| Docs | 문서 추가/수정 |
-| Style | UI 스타일링, 포맷 수정 |
-| Refactor | 리팩토링 (동작 변경 없음) |
-| Test | 테스트 관련 작업 |
-| Deploy | 배포 |
-| Conf | 빌드/환경 설정 |
-| Chore | 기타 작업 |
+### 아래 1번 문항부터 주석 문구가 빈줄에 주석을 지우고 문항에 대한 내용을 작성하고 커밋을 완료해주세요.
+```
+# 1. 아래 형식에 맞춰 커밋 메시지 타이틀을 작성하세요:
+# <이모지> <타입>: <간결한 커밋 메시지 요약>
+#
+# 예시:
+# ✨ feat: 사용자 로그인 기능 추가
+# 🐛 fix: 댓글 생성 시 발생하는 NullPointerException 수정
+# 💡 chore: 불필요한 로그 제거 및 변수명 수정
+# 🎨 style: black, isort 코드 포매터 실행
+# 📝 docs: README에 프로젝트 설명 추가
+# 🚚 build: Dockerfile 수정하여 실행 오류 해결
+# ✅ test: 게시글 API 단위 테스트 추가
+# ♻️ refactor: 중복 코드 제거 및 함수 분리
+# 🚑 hotfix: 프로덕션 장애 수정 - 잘못된 URL 패턴 수정
 
+# 2. 변경 또는 추가사항을 아래에 간략하게 작성하세요 ( 필수 )
+#
+# 본문 내용은 어떻게 변경했는지 보다 무엇을 변경했는지 또는 왜 변경했는지를 설명합니다.
+
+# 3. 이슈가 있다면 아래에 연결하세요 ( 선택 )
+#
+# 예시
+# 관련 이슈: #123
+
+```
 ---
 
 ## 🌿 Branch Naming Convention
@@ -343,11 +540,19 @@
 ## :clipboard: Documents
 
 > [📜 요구사항 정의서 ](https://docs.google.com/spreadsheets/d/1hpIdDAuJNH8njU_ZTsBNrsGCN5S7XPzdYUqKEG2Npp0/edit?gid=0#gid=0)
+> 
 > [📜 ERD ](https://dbdiagram.io/d/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD-4%EA%B8%B0-%ED%95%A9%EB%8F%99ver-691c280a6735e11170535c42)
+> 
 > [📜 테이블 명세서 ](https://docs.google.com/spreadsheets/d/1c6Vk5MJ4NXOKH-EJHO4ayAlN3qWNbXuY3aamHttwc9s/edit?gid=684962824#gid=684962824)
+>
 > [📜 API 명세서 ](https://docs.google.com/spreadsheets/d/1RKP4G_0D0t6lCOSNpTvLLIbR20gQ3fzdsR2WKAaJxvU/edit?gid=0#gid=0)
+> 
 > [📜 Design(User)](https://www.figma.com/design/wODos4K4lXwQFCfPjL7jLA/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD--StudyHub----13%EA%B8%B0?node-id=0-1&p=f&t=NSiPleurGMuFZJVw-0)
+> 
 > [📜 Design(Admin)](https://www.figma.com/design/wODos4K4lXwQFCfPjL7jLA/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD--StudyHub----13%EA%B8%B0?node-id=4-27030&p=f&t=pT8Dp8zj0A8cuWQA-0)
+> 
 > [📜 Flow Chart](https://www.figma.com/design/9HBZkJw1EWZkYtuZUiNSCu/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD-4%EA%B8%B0-fe-%EA%B8%B0%ED%9A%8D%EB%AC%B8%EC%84%9C?node-id=0-1&p=f&t=9jOdpdBALuMV0Bf1-0)
+> 
 > [📜 화면 정의서 ](https://www.figma.com/design/9HBZkJw1EWZkYtuZUiNSCu/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD-4%EA%B8%B0-fe-%EA%B8%B0%ED%9A%8D%EB%AC%B8%EC%84%9C?node-id=4-1357&t=RdeXqrkoSrN0Uwoq-1)
+> 
 
