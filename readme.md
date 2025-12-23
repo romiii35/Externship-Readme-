@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1zvBquTijDVhuDewFf05spW76giOInuys" alt="프로젝트 로고" width="380"/>
+  <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/image/externship4%E1%84%80%E1%85%B5.png" alt="프로젝트 로고" width="400"/>
 </p>
 
 
@@ -11,6 +11,8 @@
 
 >또한 관리자(Admin) / 스태프(Staff) 를 위한 강력한 어드민 기능을 제공하여<br>
 회원, 강의, 스터디 그룹, 공고, 지원 내역, 리뷰 등을 체계적으로 관리할 수 있습니다.<br>
+
+
 ---
 ## :link: 배포 링크
 
@@ -19,13 +21,67 @@
 ---
 ## 🗣️ 프로젝트 발표 영상 & 발표 문서
 
-> ### 🗓️ 2025. 10. 24 - 2025. 11. 20
+> ### 🗓️ 2025. 11. 21 - 2025. 12. 26
 > ### [📺 발표 영상 ](https://drive.google.com/drive/folders/13M4xtePsAaBG7ZkVIroeNVsCUQz7SwkU)
 > ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
 
 ---
 
 ## 🖥️ 서비스 소개
+
+회원 인증
+
+- 이메일 회원가입 + 휴대폰 인증
+
+- Kakao / Naver 소셜 로그인
+
+- 비밀번호 재설정, 회원 탈퇴 및 복구 지원
+
+강의 서비스
+
+- Inflearn / Udemy 강의 크롤링
+
+- 강의 검색, 필터링, 북마크
+
+- 로그인 유저 대상 개인화 추천
+
+스터디 그룹
+
+- 강의 기반 스터디 그룹 생성 및 참여
+
+- 멤버 관리, 자동 종료 처리
+
+- 종료 후 익명 리뷰 작성
+
+스터디 구인 공고
+
+- 공고 작성 / 수정 / 삭제 (태그, 파일 첨부)
+
+- 공고 검색 및 개인화 추천
+
+- 지원 → 승인 시 스터디 자동 편입
+
+실시간 채팅
+
+- 스터디 그룹별 WebSocket 채팅
+
+- 읽음 처리 및 무한 스크롤
+
+스터디 기록 & AI 요약
+
+- 학습 기록 작성 및 공유
+
+- AI 기반 학습 내용 요약 및 키워드 추출
+
+알림 시스템
+
+- 지원 결과, 스터디 일정, 기록 등록 알림 제공
+
+어드민
+
+- 회원 / 강의 / 스터디 / 공고 / 리뷰 관리
+
+- 통계 대시보드 제공
 
 ## 🧰 사용 스택
 
@@ -99,21 +155,129 @@
 
 --- 
 
-## :busts_in_silhouette: 팀 동료
-
-### FE
-
-| <a href=https://github.com/yeeun-kor><img src="https://avatars.githubusercontent.com/u/189711671?s=64&v=4" width=100px/><br/><sub><b>@yeeun-kor</b></sub></a><br/> | <a href=https://github.com/ppebble><img src="https://avatars.githubusercontent.com/u/92935915?s=64&v=4" width=100px/><br/><sub><b>@ppebble</b></sub></a><br/> | <a href=https://github.com/dabinkwon><img src="https://avatars.githubusercontent.com/u/183258837?s=64&v=4" width=100px/><br/><sub><b>@dabinkwon</b></sub></a><br/> |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                                                                        정예은                                                                         |                                                                        이석민                                                                         |                                                                             권다빈                                                                              |
+## :busts_in_silhouette: 팀 소개
 
 
-### BE
+### BE_1팀
 
-| <a href=https://github.com/moxopills><img src="https://avatars.githubusercontent.com/u/219768803?s=80&v=4" width=100px/><br/><sub><b>@moxopills</b></sub></a><br/> | <a href=https://github.com/s4ngmin-9><img src="https://avatars.githubusercontent.com/u/219594325?s=64&v=4" width=100px/><br/><sub><b>@s4ngmin-9</b></sub></a><br/> | <a href=https://github.com/Kang9805><img src="https://avatars.githubusercontent.com/u/217697213?s=60&v=4" width=100px/><br/><sub><b>@Kang9805</b></sub></a><br/> | <a href=https://github.com/Yong-back><img src="https://avatars.githubusercontent.com/u/219760618?v=4&size=40" width=100px/><br/><sub><b>@Yong-back</b></sub></a><br/> | <a href=https://github.com/romiii35><img src="https://avatars.githubusercontent.com/u/219593253?s=64&v=4" width=100px/><br/><sub><b>@romiii35</b></sub></a><br/> |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                                                                             박민수                                                                             |                                                                             정상민                                                                              |                                                                        강성연                                                                         |                                                                            백경용                                                                             |                                                                        강윤혜                                                                         |
+| <a href=https://github.com/moxopills><img src="https://avatars.githubusercontent.com/u/219768803?s=80&v=4" width=100px/><br/><sub><b>@moxopills</b></sub></a><br/> |  <a href=https://github.com/Kang9805><img src="https://avatars.githubusercontent.com/u/217697213?s=60&v=4" width=100px/><br/><sub><b>@Kang9805</b></sub></a><br/> | <a href=https://github.com/romiii35><img src="https://avatars.githubusercontent.com/u/219593253?s=64&v=4" width=100px/><br/><sub><b>@romiii35</b></sub></a><br/> |
+|:-------:|:-------:|:-------:|
+| 박민수 | 강성연 | 강윤혜 |
 
+담당 기능 :
+- 구인 공고, 공고 지원 기능 API, 사용자 맞춤 공고 추천(협업 필터링), S3 Util Class 구현
+
+# 📘 프로젝트 규칙 (Project Rules)
+
+### 🕒 데일리 스크럼
+- 매일 오전 **11시**, 약 **15분**
+
+### 🕑 코어 타임
+- **13:00 ~ 18:00**
+
+### 🕕 마무리 타임
+- **18:00 ~ 18:40**
+
+---
+
+
+
+
+### BE_2팀
+
+| <a href=https://github.com/LuSiEDa><img src="https://avatars.githubusercontent.com/u/219760531?v=4" width=100px/><br/><sub><b>@LuSiEDa</b></sub></a><br/> |  <a href=https://github.com/s4ngmin-9><img src="https://avatars.githubusercontent.com/u/219594325?v=4" width=100px/><br/><sub><b>@s4ngmin-9</b></sub></a><br/> | <a href=https://github.com/lee-baehyung><img src="https://avatars.githubusercontent.com/u/219762708?v=4" width=100px/><br/><sub><b>@lee-baehyung</b></sub></a><br/> | <a href=https://github.com/han-son-03><img src="https://avatars.githubusercontent.com/u/218101567?v=4" width=100px/><br/><sub><b>@han-son-03</b></sub></a><br/> |
+|:-------:|:-------:|:-------:|:-------:|
+| 곽승현 | 정상민 | 이배형 | 강한손 |
+
+담당 기능 :
+- 채팅 및 알림 기능 구현 (웹소켓 및 SSE 처리, Celery를 이용한 비동기처리)
+
+
+### 📘 프로젝트 규칙 (Project Rules)
+
+#### 🕒 데일리 스크럼
+- 매일 오전 **10시 10분**, 약 **15분**
+
+#### 🕑 코어 타임
+- **13:00 ~ 18:00**
+
+#### 🕕 마무리 타임
+- **18:00 ~ 18:40**
+
+---
+
+### BE_3팀
+
+| <a href=https://github.com/dothebest9><img src="https://avatars.githubusercontent.com/u/219054343?v=4" width=100px/><br/><sub><b>@dothebest9</b></sub></a><br/> |  <a href=https://github.com/UNGBI78><img src="https://avatars.githubusercontent.com/u/219274926?v=4" width=100px/><br/><sub><b>@UNGBI78</b></sub></a><br/> | <a href=https://github.com/chdan-hub><img src="" width=100px/><br/><sub><b>@chdan-hub</b></sub></a><br/> | <a href=https://github.com/summmer5><img src="https://avatars.githubusercontent.com/u/219632319?v=4" width=100px/><br/><sub><b>@summmer5</b></sub></a><br/> |
+|:-------:|:-------:|:-------:|:-------:|
+| 최선구 | 서웅비 | 박재현 | 김지선 |
+
+담당 기능 : 
+- 유저 관련 기능, 인증/인가 API (소셜 로그인(kakao, naver), Twilio(모바일 인증), SMTP(이메일 전송 및 인증))
+
+---
+### BE_4팀
+
+| <a href=https://github.com/badatga><img src="https://avatars.githubusercontent.com/u/17699362?v=4" width=100px/><br/><sub><b>@badatga</b></sub></a><br/> |  <a href=https://github.com/TeaCat-Develop><img src="https://avatars.githubusercontent.com/u/217452693?v=4" width=100px/><br/><sub><b>@TeaCat-Develop</b></sub></a><br/> | <a href=https://github.com/BH13KDR><img src="https://avatars.githubusercontent.com/u/219213065?v=4" width=100px/><br/><sub><b>@BH13KDR</b></sub></a><br/> | <a href=https://github.com/codfin02><img src="https://avatars.githubusercontent.com/u/200759918?v=4" width=100px/><br/><sub><b>@codfin02</b></sub></a><br/> |
+|:-------:|:-------:|:-------:|:-------:|
+| 김재호 | 박진영 | 김동렬 | 황성연 |
+
+담당 기능 :
+- 스터디 관련 기능 API 구현(StudyGroups, Reviews, StudyNotes, StudySchedules)
+
+---
+
+### BE_5팀
+
+| <a href=https://github.com/kickcik><img src="https://avatars.githubusercontent.com/u/218086186?v=4" width=100px/><br/><sub><b>@kickcik</b></sub></a><br/> |  <a href=https://github.com/daebagi><img src="https://avatars.githubusercontent.com/u/218174589?v=4" width=100px/><br/><sub><b>@daebagi</b></sub></a><br/> | <a href=https://github.com/seokhun14><img src="https://avatars.githubusercontent.com/u/214474564?v=4" width=100px/><br/><sub><b>@seokhun14</b></sub></a><br/> | <a href=https://github.com/Junhyeock><img src="https://avatars.githubusercontent.com/u/214911726?v=4" width=100px/><br/><sub><b>@Junhyeock</b></sub></a><br/> |
+|:-------:|:-------:|:-------:|:-------:|
+| 강인찬 | 박대범 | 김석훈 | 이준혁 |
+
+담당 기능 :
+- 강의 크롤링 및 강의 관련 API, 사용자 맞춤 강의 추천
+
+---
+
+### FE_1팀
+
+> ### [⛪  FE_1팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team1)
+
+| <a href=https://github.com/cks-wls><img src="https://avatars.githubusercontent.com/u/134291854?v=4" width=100px/><br/><sub><b>@cks-wls</b></sub></a><br/> | <a href=https://github.com/hwank1><img src="https://avatars.githubusercontent.com/u/223783213?v=4" width=100px/><br/><sub><b>@hwank1</b></sub></a><br/> | <a href=https://github.com/dabinkwon><img src="https://avatars.githubusercontent.com/u/183258837?s=64&v=4" width=100px/><br/><sub><b>@dabinkwon</b></sub></a><br/> |
+|:-------:|:-------:|:-------:|
+|  황찬진 | 기정환 | 권다빈 |
+
+
+---
+
+### FE_2팀
+
+> ### [⛪  FE_2팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team2)
+
+| <a href=https://github.com/miloupark><img src="https://avatars.githubusercontent.com/u/136055426?v=4" width=100px/><br/><sub><b>@miloupark</b></sub></a><br/> | <a href=https://github.com/Jay-klmnop><img src="https://avatars.githubusercontent.com/u/215503558?v=4" width=100px/><br/><sub><b>@Jay-klmnop</b></sub></a><br/> |
+|:-------:|:-------:|
+|  박혜빈 |  윤지예 |
+
+---
+
+### FE_3팀
+
+> ### [⛪  FE_3팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team3)
+
+| <a href=https://github.com/agrade1><img src="https://avatars.githubusercontent.com/u/98932636?v=4" width=100px/><br/><sub><b>@agrade1</b></sub></a><br/> | <a href=https://github.com/yeeun-kor><img src="https://avatars.githubusercontent.com/u/189711671?v=4" width=100px/><br/><sub><b>@yeeun-kor</b></sub></a><br/> |  <a href=https://github.com/KoCeleste><img src="https://avatars.githubusercontent.com/u/217916977?v=4" width=100px/><br/><sub><b>@KoCeleste</b></sub></a><br/> |
+|:-------:|:-------:|:-------:|
+| 강지훈 | 정예은 | 고연우 |
+
+---
+
+### FE_4팀
+
+> ### [⛪  FE_4팀 레포주소 ](https://github.com/OZ-Coding-School/oz_externship_fe_04_team4)
+
+| <a href=https://github.com/ppebble><img src="https://avatars.githubusercontent.com/u/92935915?v=4" width=100px/><br/><sub><b>@ppebble</b></sub></a><br/> | <a href=https://github.com/Joydazero><img src="https://avatars.githubusercontent.com/u/36254421?v=4" width=100px/><br/><sub><b>@Joydazero</b></sub></a><br/> |  <a href=https://github.com/eisont><img src="https://avatars.githubusercontent.com/u/87557968?v=4" width=100px/><br/><sub><b>@eisont</b></sub></a><br/> |
+|:-------:|:-------:|:-------:|
+| 이석민 | 조다영 | 김치훈 |
+
+---
 
 # 📘 프로젝트 규칙 (Project Rules)
 
@@ -178,12 +342,12 @@
 
 ## :clipboard: Documents
 
-> [📜 API 명세서 ](https://docs.google.com/spreadsheets/d/1i1zQxyX-wpCnMO0MonLkcRjYOGyRMYxnB2psPW4SyT8/edit?pli=1&gid=1639915007#gid=1639915007)
-> 
-> [📜 요구사항 정의서 ](https://docs.google.com/spreadsheets/d/1_vfjnjm-bx-hYcIIcIpcNZ_99Z95EELkhFJtnTgIzkM/edit?gid=820459492#gid=820459492)
-> 
-> [📜 ERD ](https://www.erdcloud.com/d/shLWgTBBg8yJrJx5f)
-> 
-> [📜 테이블 명세서 ](https://docs.google.com/spreadsheets/d/1z04_6Hhv1SsFmuQNpv0F5Aahhvgqn83E23f2-hWCXqY/edit?gid=953386421#gid=953386421)
->
-> [📜 화면 정의서 ](https://www.figma.com/design/k6SN4iRxUS3XThcWrd00Gy/%EB%A9%94%EC%9D%B84%ED%8C%80-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84-%EB%B0%8F-%ED%99%94%EB%A9%B4%EC%A0%95%EC%9D%98%EC%84%9C?node-id=46-1923&p=f)
+> [📜 요구사항 정의서 ](https://docs.google.com/spreadsheets/d/1hpIdDAuJNH8njU_ZTsBNrsGCN5S7XPzdYUqKEG2Npp0/edit?gid=0#gid=0)
+> [📜 ERD ](https://dbdiagram.io/d/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD-4%EA%B8%B0-%ED%95%A9%EB%8F%99ver-691c280a6735e11170535c42)
+> [📜 테이블 명세서 ](https://docs.google.com/spreadsheets/d/1c6Vk5MJ4NXOKH-EJHO4ayAlN3qWNbXuY3aamHttwc9s/edit?gid=684962824#gid=684962824)
+> [📜 API 명세서 ](https://docs.google.com/spreadsheets/d/1RKP4G_0D0t6lCOSNpTvLLIbR20gQ3fzdsR2WKAaJxvU/edit?gid=0#gid=0)
+> [📜 Design(User)](https://www.figma.com/design/wODos4K4lXwQFCfPjL7jLA/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD--StudyHub----13%EA%B8%B0?node-id=0-1&p=f&t=NSiPleurGMuFZJVw-0)
+> [📜 Design(Admin)](https://www.figma.com/design/wODos4K4lXwQFCfPjL7jLA/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD--StudyHub----13%EA%B8%B0?node-id=4-27030&p=f&t=pT8Dp8zj0A8cuWQA-0)
+> [📜 Flow Chart](https://www.figma.com/design/9HBZkJw1EWZkYtuZUiNSCu/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD-4%EA%B8%B0-fe-%EA%B8%B0%ED%9A%8D%EB%AC%B8%EC%84%9C?node-id=0-1&p=f&t=9jOdpdBALuMV0Bf1-0)
+> [📜 화면 정의서 ](https://www.figma.com/design/9HBZkJw1EWZkYtuZUiNSCu/%EC%9D%B5%EC%8A%A4%ED%84%B4%EC%8B%AD-4%EA%B8%B0-fe-%EA%B8%B0%ED%9A%8D%EB%AC%B8%EC%84%9C?node-id=4-1357&t=RdeXqrkoSrN0Uwoq-1)
+
