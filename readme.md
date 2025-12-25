@@ -34,7 +34,7 @@
 
 |   메인 화면  |  마이페이지   |
 |:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="300" alt="MainPage1"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mypage.gif" width="300" alt="full main">  |
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="300" alt="MainPage1"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mapage1.gif" width="300" alt="full main">  |
 
 |   일반 로그인   |  소셜 로그인 |
 |:------:|:------:|
@@ -51,14 +51,14 @@
 
 |   스터디 생성   |   스터디 스케줄 추가    |  스터디 그룹 노트 | 
 |:------:|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_StudyGroup.gif" width="260" alt="chat"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="260" alt="locationAddDelete"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/studygroup_note.gif" width="260" alt="locationAddDelete"> | 
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_studygroup2.gif" width="240" alt="chat"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="240" alt="locationAddDelete"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/studygroup_note.gif" width="240" alt="locationAddDelete"> | 
 
 <br>
 📢 스터디 구인 공고
 
 |     옷추천          |        마이페이지 1         |         마이페이지 2    |
 |:------:|:------:|:------:|
-| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/outfitRecommend.gif?raw=true" width="280"  alt="outfit_recommendation"> |<img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/mypage.gif?raw=true" width="270" alt="MyPage1"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/mypage2.gif?raw=true" width="280" alt="mypage2"> |
+| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/outfitRecommend.gif?raw=true" width="240"  alt="outfit_recommendation"> |<img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/mypage.gif?raw=true" width="240" alt="MyPage1"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/mypage2.gif?raw=true" width="240" alt="mypage2"> |
 
 
 <br>
@@ -66,7 +66,7 @@
 
 | 실시간 채팅 |
 |:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/chat.gif" width="350"  alt="outfit_recommendation"> |
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/chat2.gif" width="350"  alt="outfit_recommendation"> |
 
 <br>
 
@@ -74,7 +74,7 @@
 
 | 어드민 로그인 & 유저 |  어드민 스터디그룹 |  어드민 공고 |
 |:------:|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_login%26user.gif" width="280"  alt="outfit_recommendation"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_study.gif" width="270" alt="MyPage1"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_recruitment.gif" width="280" alt="mypage2"> |
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_login%26user.gif" width="240"  alt="outfit_recommendation"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_study.gif" width="240" alt="MyPage1"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_recruitment.gif" width="240" alt="mypage2"> |
 
 <br>
 
