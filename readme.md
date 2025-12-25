@@ -27,23 +27,54 @@
 
 ## 🖥️ 서비스 소개
 
-|   메인 화면 (로그인전)  |  메인 화면 (로그인)  |   메인화면 (전체)   |
-|:-------------------:|:------------------:|:------:|
-| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/beforeLogin.gif?raw=true" width="280" alt="MainPage1"> |   <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/loginnnn.gif?raw=true" width="280" height="150" alt="MainPage2">  | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/mainnnn.gif?raw=true" width="280" alt="full main">  |
+<br>
 
-|   다이어리 작성      |  다이어리 수정    |    다이어리 삭제       |
-|:-----------------:|:-------------:|:-------------------:|
-| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/diarycreate.gif?raw=true" width="280" alt="diarycreate.gif"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/diarypatch.gif?raw=true" width="280" alt="diarypatch"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/diarydelete.gif?raw=true" width="280" alt="diarydelete"> |
+👤 회원 인증
 
 
-|   챗봇   |      즐겨찾는 지역 추가 및 삭제     |   즐겨찾는 지역 별칭으로 저장 및 순서 바꾸기  |
-|:---------------:|:--------------------:|:-------------:|
-| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/chatVideo.gif?raw=true" width="280" alt="chat"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/locationAdd.gif?raw=true" width="280" alt="locationAddDelete"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/reorder.gif?raw=true" width="280" alt="aliasReorder"> |
+|   메인 화면  |  마이페이지   |
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="300" alt="MainPage1"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mypage.gif" width="300" alt="full main">  |
 
+|   일반 로그인   |  소셜 로그인 |
+|:------:|:------:|
+|   <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/login.gif" width="300" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="300" height="150" alt="MainPage2">  | 
+<br>
+🎓 강의 서비스
+
+|  강의 목록  | 강의 검색 |
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_list.gif" width="300" alt="diarycreate.gif"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_search.gif" width="300" alt="diarycreate.gif"> | 
+
+<br>
+📚 스터디 그룹
+
+|   스터디 생성   |   스터디 스케줄 추가    |  스터디 그룹 노트 | 
+|:------:|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_StudyGroup.gif" width="260" alt="chat"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="260" alt="locationAddDelete"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/studygroup_note.gif" width="260" alt="locationAddDelete"> | 
+
+<br>
+📢 스터디 구인 공고
 
 |     옷추천          |        마이페이지 1         |         마이페이지 2    |
-|:-----------------:|:------------------------:|:------------------------:|
+|:------:|:------:|:------:|
 | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/outfitRecommend.gif?raw=true" width="280"  alt="outfit_recommendation"> |<img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/mypage.gif?raw=true" width="270" alt="MyPage1"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/mypage2.gif?raw=true" width="280" alt="mypage2"> |
+
+
+<br>
+💬 실시간 채팅
+
+| 실시간 채팅 |
+|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/chat.gif" width="350"  alt="outfit_recommendation"> |
+
+<br>
+
+🧑‍💼 어드민
+
+| 어드민 로그인 & 유저 |  어드민 스터디그룹 |  어드민 공고 |
+|:------:|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_login%26user.gif" width="280"  alt="outfit_recommendation"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_study.gif" width="270" alt="MyPage1"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_recruitment.gif" width="280" alt="mypage2"> |
 
 <br>
 
@@ -70,6 +101,9 @@
 - 멤버 관리, 자동 종료 처리
 
 - 종료 후 익명 리뷰 작성
+- 스터디 기록 & AI 요약
+  - 학습 기록 작성 및 공유
+  - AI 기반 학습 내용 요약 및 키워드 추출
 
 📢 스터디 구인 공고
 
@@ -84,12 +118,6 @@
 - 스터디 그룹별 WebSocket 채팅
 
 - 읽음 처리 및 무한 스크롤
-
-📝 스터디 기록 & AI 요약
-
-- 학습 기록 작성 및 공유
-
-- AI 기반 학습 내용 요약 및 키워드 추출
 
 🔔 알림 시스템
 
@@ -242,7 +270,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|:-------:|
 | 곽승현(팀장) | 정상민 | 이배형 | 강한손 |
 
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design2/65d55c82-b97a-41d0-a2f0-93df0c8b58fd?viewMode=VklFV0VS)
 
 <br>
 
