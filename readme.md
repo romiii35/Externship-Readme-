@@ -38,7 +38,7 @@
 
 |   일반 로그인   |  소셜 로그인 |
 |:------:|:------:|
-|   <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/login.gif" width="300" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="300" height="150" alt="MainPage2">  | 
+|   <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/login2.gif" width="300" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="300" height="150" alt="MainPage2">  | 
 <br>
 🎓 강의 서비스
 
@@ -51,7 +51,7 @@
 
 |   스터디 생성   |   스터디 스케줄 추가    |  스터디 그룹 노트 | 
 |:------:|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_studygroup2.gif" width="240" alt="chat"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="240" alt="locationAddDelete"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/studygroup_note.gif" width="240" alt="locationAddDelete"> | 
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_studygroup3.gif" width="240" alt="chat"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="240" alt="locationAddDelete"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/studygroup_note.gif" width="240" alt="locationAddDelete"> | 
 
 <br>
 📢 스터디 구인 공고
