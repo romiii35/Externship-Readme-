@@ -27,6 +27,26 @@
 
 ## 🖥️ 서비스 소개
 
+|   메인 화면 (로그인전)  |  메인 화면 (로그인)  |   메인화면 (전체)   |
+|:-------------------:|:------------------:|:------:|
+| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/beforeLogin.gif?raw=true" width="280" alt="MainPage1"> |   <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/loginnnn.gif?raw=true" width="280" height="150" alt="MainPage2">  | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/mainnnn.gif?raw=true" width="280" alt="full main">  |
+
+|   다이어리 작성      |  다이어리 수정    |    다이어리 삭제       |
+|:-----------------:|:-------------:|:-------------------:|
+| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/diarycreate.gif?raw=true" width="280" alt="diarycreate.gif"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/diarypatch.gif?raw=true" width="280" alt="diarypatch"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/diarydelete.gif?raw=true" width="280" alt="diarydelete"> |
+
+
+|   챗봇   |      즐겨찾는 지역 추가 및 삭제     |   즐겨찾는 지역 별칭으로 저장 및 순서 바꾸기  |
+|:---------------:|:--------------------:|:-------------:|
+| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/chatVideo.gif?raw=true" width="280" alt="chat"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/locationAdd.gif?raw=true" width="280" alt="locationAddDelete"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/reorder.gif?raw=true" width="280" alt="aliasReorder"> |
+
+
+|     옷추천          |        마이페이지 1         |         마이페이지 2    |
+|:-----------------:|:------------------------:|:------------------------:|
+| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/outfitRecommend.gif?raw=true" width="280"  alt="outfit_recommendation"> |<img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/mypage.gif?raw=true" width="270" alt="MyPage1"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/mypage2.gif?raw=true" width="280" alt="mypage2"> |
+
+<br>
+
 👤 회원 인증
 
 - 이메일 회원가입 + 휴대폰 인증
@@ -37,7 +57,7 @@
 
 🎓 강의 서비스
 
-- Inflearn / Udemy 강의 크롤링
+- Inflearn 강의 크롤링
 
 - 강의 검색, 필터링, 북마크
 
@@ -55,7 +75,7 @@
 
 - 공고 작성 / 수정 / 삭제 (태그, 파일 첨부)
 
-- 공고 검색 및 개인화 추천
+- 공고 검색
 
 - 지원 → 승인 시 스터디 자동 편입
 
@@ -150,7 +170,7 @@ oz_externship_be/
 └── README.md                  # 프로젝트 소개서
 ```
 
-- 앱은 각 도메인 별로 구분하여 생성하며, app name은 'snake case' 를 적용합니다.
+- 앱은 각 도메인 별로 구분하여 생성하며, app name은 **snake case** 를 적용합니다.
   
 
 ## 🧰 사용 스택
@@ -159,28 +179,15 @@ oz_externship_be/
 
 
 <div align=center> 
-  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"> 
-  <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenWeather_API-1F8FEF?style=for-the-badge&logo=OpenWeather&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white">
-
-
-  <br>
-
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
-  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/mypy-2A6DBA?style=for-the-badge&logo=mypy&logoColor=white">
-  <img src="https://img.shields.io/badge/ruff-D7FF64?style=for-the-badge">
-  <img src="https://img.shields.io/badge/isort-1672B5?style=for-the-badge">
-  <img src="https://img.shields.io/badge/pytest-%23ffffff.svg?style=for-the-badge&logo=pytest&logoColor=2f9fe3">
-
-
-  <br>
-  <img src="https://img.shields.io/badge/drf--spectacular-14354C?style=for-the-badge">
   <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white">
   <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white">
+  <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white">
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white">
+  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+    <br>
+  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
   <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white">
@@ -213,10 +220,10 @@ oz_externship_be/
   - 이미지 / 파일 첨부
   - 태그 시스템 (검색 + 신규 등록)
   - 공고 수정 / 삭제
+    
 - 공고 탐색
   - 무한 스크롤
   - 검색 / 태그 필터링 / 정렬
-  - 개인화 추천 공고 제공
 
 - 지원 시스템
   - 지원서 작성
@@ -301,6 +308,12 @@ oz_externship_be/
   - 즉시 로그아웃
   - 2주 후 데이터 완전 삭제
   - 소셜 로그인 계정 연결 해제 자동 처리
+ 
+- 어드민 
+  - 회원관리 회원 정보 조회, 수정, 삭제, 권한 변경
+  - 탈퇴 내역 조회 및 탈퇴 회원 복구
+  - 년/월 회원가입 및 회원탈퇴 추세 분석
+  - 년/월 회원 탈퇴 사유 추세 분석
 <br>
 
 ---
@@ -316,7 +329,7 @@ oz_externship_be/
 <br>
 
 ### 담당 기능 :
-- 스터디 관련 기능 API 구현(StudyGroups, Reviews, StudyNotes, StudySchedules)<br>
+- 스터디 관련 기능 API 구현(StudyGroups, Reviews, StudyNotes, StudySchedules)
 
 ### 📚 스터디 그룹
 - 스터디 그룹 생성 & 관리
@@ -340,26 +353,26 @@ oz_externship_be/
 ### BE_5팀
 | <a href=https://github.com/kickcik><img src="https://avatars.githubusercontent.com/u/218086186?v=4" width=100px/><br/><sub><b>@kickcik</b></sub></a><br/> |  <a href=https://github.com/daebagi><img src="https://avatars.githubusercontent.com/u/218174589?v=4" width=100px/><br/><sub><b>@daebagi</b></sub></a><br/> | <a href=https://github.com/seokhun14><img src="https://avatars.githubusercontent.com/u/214474564?v=4" width=100px/><br/><sub><b>@seokhun14</b></sub></a><br/> | <a href=https://github.com/Junhyeock><img src="https://avatars.githubusercontent.com/u/214911726?v=4" width=100px/><br/><sub><b>@Junhyeock</b></sub></a><br/> |
 |:-------:|:-------:|:-------:|:-------:|
-| 강인찬(팀장) | 박대범 | 김석훈 | 이준혁 |<br>
+| 강인찬(팀장) | 박대범 | 김석훈 | 이준혁 |
 
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+> ### [📑 발표 문서 ](https://www.canva.com/design/DAG8Sa2ahAE/1xCVZ7v_QKljQ50pqtNkrA/edit)
 
 <br>
 
 ### 담당 기능 :
-- 강의 크롤링 및 강의 관련 API, 사용자 맞춤 강의 추천<br>
+- 강의 크롤링 및 강의 관련 API, 사용자 맞춤 강의 추천
 
 ### 🎓 강의 서비스
 - 강의 목록
-  -Inflearn / Udemy 강의 크롤링
+  - Inflearn 강의 크롤링
   카드형 목록 + 무한 스크롤
   검색 / 필터링 / 정렬 기능
   북마크 지원
 
 - 개인화 추천
-  -로그인 유저 대상 추천 강의 제공
-  협업 필터링 + 콘텐츠 기반 필터링 혼합
-  사용자 선호 카테고리, 검색 기록 활용
+  - 로그인 유저 대상 추천 강의 제공
+  - 콘텐츠 기반 필터링 혼합
+  - 사용자 선호 카테고리, 수강중인 강의 및 북마크 활용
 
 - 어드민 - 강의 관리
   - 강의 목록 / 상세 조회
