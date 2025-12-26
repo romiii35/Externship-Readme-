@@ -32,40 +32,47 @@
 👤 회원 인증
 
 
-|   메인 화면  |  회원가입   |  마이페이지   |
-|:------:|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="250" alt="main"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_account.gif" width="250" alt="create_account">  |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mapage1.gif" width="250" alt="mypage">  |
+|   메인 화면  |  마이페이지   |
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="350" alt="main"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mapage1.gif" width="350" alt="mypage">  |
 
-| 소셜 회원가입 |  소셜 로그인 |   일반 로그인  |
-|:------:|:------:|:------:|
-|   <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_loggin.gif" width="250" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="250" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/login2.gif" width="250" height="150" alt="MainPage2">  |
+|  회원가입   | 소셜 회원가입 | 
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_account.gif" width="350" alt="create_account">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_loggin.gif" width="350" height="150" alt="create_social">  | 
+
+|  소셜 로그인 |   일반 로그인  |
+|:------:|:------:|
+|  <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="350" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/loggin.gif" width="350" height="150" alt="loggin">  |
 <br>
 🎓 강의 서비스
 
 |  강의 목록  | 강의 검색 |
 |:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_list.gif" width="320" alt="lecture_list"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_search.gif" width="320" alt="lecture_search"> | 
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_list.gif" width="350" alt="lecture_list"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_search.gif" width="350" alt="lecture_search"> | 
 
 <br>
 📚 스터디 그룹
 
 |   스터디 생성   |   스터디 스케줄 추가    | 
 |:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/CreateStudy.gif" width="320" alt="CreateStudy"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="320" alt="study_schedule"> | 
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/CreateStudy.gif" width="350" alt="CreateStudy"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="350" alt="study_schedule"> | 
 <br>
 📢 스터디 구인 공고
 
-|     옷추천          |        마이페이지 1         |         마이페이지 2    |
-|:------:|:------:|:------:|
-| <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/outfitRecommend.gif?raw=true" width="240"  alt="outfit_recommendation"> |<img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/main/gif/mypage.gif?raw=true" width="240" alt="MyPage1"> | <img src="https://github.com/OZ-MainProject-Team4-Backend/Team4-Last-Backend/blob/ft/readme.gif/gif/mypage2.gif?raw=true" width="240" alt="mypage2"> |
+|  스터디 공고 작성 | 스터디 공고 목록 |
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_recruitment.gif" width="350"  alt="create_recruitment"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/recruitment_list.gif" width="350" alt="recruitment_list"> |
 
+| 스터디 공고 관리 | 스터디 지원서 작성 |
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/recruitment_manage.gif" width="350" alt="recruitment_manage"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/recruitment_application.gif" width="350" alt="recruitment_application"> |
 
 <br>
 💬 실시간 채팅
 
-| 실시간 채팅 |
-|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/chat2.gif" width="350"  alt="chat"> |
+| 실시간 채팅 | 알림 |
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/chat2.gif" width="350"  alt="chat"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/notification.gif" width="350"  alt="notification"> |
 
 <br>
 
@@ -73,11 +80,11 @@
 
 | 어드민 로그인  | 어드민 유저 대시보드 |
 |:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_login.gif" width="320"  alt="admin_login"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/AdminUser_Dashboard.gif" width="320" alt="AdminUser_Dashboard"> | 
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_login.gif" width="350"  alt="admin_login"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/AdminUser_Dashboard.gif" width="350" alt="AdminUser_Dashboard"> | 
 
 |  어드민 스터디그룹 |  어드민 공고 |
 |:------:|:------:|
-|<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_study.gif" width="320" alt="admin_study"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_recruitment.gif" width="320" alt="admin_recruitment"> |
+|<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_study.gif" width="350" alt="admin_study"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_recruitment.gif" width="350" alt="admin_recruitment"> |
 
 <br>
 
@@ -238,7 +245,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|
 | 박민수(팀장) | 강성연 | 강윤혜 |
 
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design2/ab11cb24-1f3b-4357-a8d3-b257eac27bb6)
 
 <br>
 
@@ -304,7 +311,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|:-------:|
 | 최선구(팀장) | 서웅비 | 박재현 | 김지선 |<br>
 
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design2/f21c59f2-1f6a-42ac-b2e0-1f81e0c2f1b1?location=design&type=copy_link&access=link&permission=viewer&viewMode=VklFV0VS)
 
 <br>
 
