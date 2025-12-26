@@ -16,7 +16,7 @@
 ---
 ## :link: 배포 링크
 
-> ### [⛪ 배포 링크 ](https://account.ozcoding.site/)
+> ### <a href="https://account.ozcoding.site/" target="_blank">⛪ 배포 링크</a>
 
 ---
 ## 🗣️ 프로젝트 기간
@@ -245,7 +245,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|
 | 박민수(팀장) | 강성연 | 강윤혜 |
 
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design2/ab11cb24-1f3b-4357-a8d3-b257eac27bb6)
+> ### <a href="https://www.miricanvas.com/v2/design2/ab11cb24-1f3b-4357-a8d3-b257eac27bb6" target="_blank">📑 발표 문서</a>
 
 <br>
 
@@ -280,7 +280,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|:-------:|
 | 곽승현(팀장) | 정상민 | 이배형 | 강한손 |
 
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design2/65d55c82-b97a-41d0-a2f0-93df0c8b58fd?viewMode=VklFV0VS)
+> ### <a href="https://www.miricanvas.com/v2/design2/65d55c82-b97a-41d0-a2f0-93df0c8b58fd?viewMode=VklFV0VS" target="_blank">📑 발표 문서</a>
 
 <br>
 
@@ -311,7 +311,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|:-------:|
 | 최선구(팀장) | 서웅비 | 박재현 | 김지선 |<br>
 
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design2/f21c59f2-1f6a-42ac-b2e0-1f81e0c2f1b1?location=design&type=copy_link&access=link&permission=viewer&viewMode=VklFV0VS)
+> ### <a href="https://www.miricanvas.com/v2/design2/f21c59f2-1f6a-42ac-b2e0-1f81e0c2f1b1?location=design&type=copy_link&access=link&permission=viewer&viewMode=VklFV0VS" target="_blank">📑 발표 문서</a>
 
 <br>
 
@@ -362,7 +362,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|:-------:|
 | 김재호(팀장) | 박진영 | 김동렬 | 황성연 |
 
-> ### [📑 발표 문서 ](https://docs.google.com/presentation/d/1l3OFxZv8vQs1G28mkx6YlnFP_QvTwepwE710hi5F97s/edit?slide=id.g3b31bd294ce_2_75#slide=id.g3b31bd294ce_2_75)
+> ### <a href="https://docs.google.com/presentation/d/1l3OFxZv8vQs1G28mkx6YlnFP_QvTwepwE710hi5F97s/edit?slide=id.g3b31bd294ce_2_75#slide=id.g3b31bd294ce_2_75" target="_blank">📑 발표 문서</a>
 
 <br>
 
@@ -393,7 +393,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|:-------:|
 | 강인찬(팀장) | 박대범 | 김석훈 | 이준혁 |
 
-> ### [📑 발표 문서 ](https://www.canva.com/design/DAG8Sa2ahAE/1xCVZ7v_QKljQ50pqtNkrA/edit)
+> ### <a href="https://www.canva.com/design/DAG8Sa2ahAE/1xCVZ7v_QKljQ50pqtNkrA/edit" target="_blank">📑 발표 문서</a>
 
 <br>
 
