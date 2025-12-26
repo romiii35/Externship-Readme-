@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/image/externship4%E1%84%80%E1%85%B5.png" alt="프로젝트 로고" width="400"/>
+  <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/image/externship4_logo.png" alt="프로젝트 로고" width="600" height="400" />
 </p>
 
 
@@ -34,11 +34,11 @@
 
 |   메인 화면  |  회원가입   |  마이페이지   |
 |:------:|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="240" alt="main"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_account.gif" width="240" alt="create_account">  |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mapage1.gif" width="240" alt="mypage">  |
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="250" alt="main"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_account.gif" width="250" alt="create_account">  |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mapage1.gif" width="250" alt="mypage">  |
 
 | 소셜 회원가입 |  소셜 로그인 |   일반 로그인  |
 |:------:|:------:|:------:|
-|   <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_loggin.gif" width="300" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="300" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/login2.gif" width="300" height="150" alt="MainPage2">  |
+|   <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_loggin.gif" width="250" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="250" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/login2.gif" width="250" height="150" alt="MainPage2">  |
 <br>
 🎓 강의 서비스
 
