@@ -9,7 +9,7 @@
 사용자는 강의를 탐색하고, 관심 강의를 기반으로 스터디 그룹을 생성하거나 참여할 수 있으며,<br>
 스터디 구인 공고, 실시간 채팅, 학습 기록, 알림 시스템까지 하나의 플랫폼에서 경험할 수 있습니다.<br>
 
->또한 관리자(Admin) / 스태프(Staff) 를 위한 강력한 어드민 기능을 제공하여<br>
+>또한 관리자(Admin) / 스태프(Staff) 를 위한 어드민 기능을 제공하여<br>
 회원, 강의, 스터디 그룹, 공고, 지원 내역, 리뷰 등을 체계적으로 관리할 수 있습니다.<br>
 
 
@@ -32,26 +32,26 @@
 👤 회원 인증
 
 
-|   메인 화면  |  마이페이지   |
-|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="300" alt="MainPage1"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mapage1.gif" width="300" alt="full main">  |
+|   메인 화면  |  회원가입   |  마이페이지   |
+|:------:|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/main.gif" width="240" alt="main"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_account.gif" width="240" alt="create_account">  |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/mapage1.gif" width="240" alt="mypage">  |
 
-|   일반 로그인   |  소셜 로그인 |
-|:------:|:------:|
-|   <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/login2.gif" width="300" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="300" height="150" alt="MainPage2">  | 
+| 소셜 회원가입 |  소셜 로그인 |   일반 로그인  |
+|:------:|:------:|:------:|
+|   <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_loggin.gif" width="300" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="300" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/login2.gif" width="300" height="150" alt="MainPage2">  |
 <br>
 🎓 강의 서비스
 
 |  강의 목록  | 강의 검색 |
 |:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_list.gif" width="300" alt="diarycreate.gif"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_search.gif" width="300" alt="diarycreate.gif"> | 
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_list.gif" width="300" alt="lecture_list"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_search.gif" width="300" alt="lecture_search"> | 
 
 <br>
 📚 스터디 그룹
 
 |   스터디 생성   |   스터디 스케줄 추가    |  스터디 그룹 노트 | 
 |:------:|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/create_studygroup3.gif" width="240" alt="chat"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="240" alt="locationAddDelete"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/studygroup_note.gif" width="240" alt="locationAddDelete"> | 
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/CreateStudy.gif" width="240" alt="CreateStudy"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="240" alt="study_schedule"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/studygroup_note.gif" width="240" alt="studygroup_note"> | 
 
 <br>
 📢 스터디 구인 공고
@@ -66,15 +66,19 @@
 
 | 실시간 채팅 |
 |:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/chat2.gif" width="350"  alt="outfit_recommendation"> |
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/chat2.gif" width="350"  alt="chat"> |
 
 <br>
 
 🧑‍💼 어드민
 
-| 어드민 로그인 & 유저 |  어드민 스터디그룹 |  어드민 공고 |
-|:------:|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_login%26user.gif" width="240"  alt="outfit_recommendation"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_study.gif" width="240" alt="MyPage1"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_recruitment.gif" width="240" alt="mypage2"> |
+| 어드민 로그인  | 어드민 유저 대시보드 |
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_login.gif" width="320"  alt="admin_login"> |<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/AdminUser_Dashboard.gif" width="320" alt="AdminUser_Dashboard"> | 
+
+|  어드민 스터디그룹 |  어드민 공고 |
+|:------:|:------:|
+|<img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_study.gif" width="320" alt="admin_study"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/admin_recruitment.gif" width="320" alt="admin_recruitment"> |
 
 <br>
 
