@@ -44,15 +44,14 @@
 
 |  강의 목록  | 강의 검색 |
 |:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_list.gif" width="300" alt="lecture_list"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_search.gif" width="300" alt="lecture_search"> | 
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_list.gif" width="320" alt="lecture_list"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/lecture_search.gif" width="320" alt="lecture_search"> | 
 
 <br>
 📚 스터디 그룹
 
-|   스터디 생성   |   스터디 스케줄 추가    |  스터디 그룹 노트 | 
-|:------:|:------:|:------:|
-| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/CreateStudy.gif" width="240" alt="CreateStudy"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="240" alt="study_schedule"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/studygroup_note.gif" width="240" alt="studygroup_note"> | 
-
+|   스터디 생성   |   스터디 스케줄 추가    | 
+|:------:|:------:|
+| <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/CreateStudy.gif" width="320" alt="CreateStudy"> | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/study_schedule.gif" width="320" alt="study_schedule"> | 
 <br>
 📢 스터디 구인 공고
 
