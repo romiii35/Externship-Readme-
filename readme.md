@@ -42,7 +42,7 @@
 
 |  소셜 로그인 |   일반 로그인  |
 |:------:|:------:|
-|  <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="350" height="150" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/loggin.gif" width="350" height="150" alt="loggin">  |
+|  <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/social_login(kakao).gif" width="350" alt="MainPage2">  | <img src="https://github.com/romiii35/Externship-Readme-/blob/feature/readme/gif/loggin.gif" width="350" alt="loggin">  |
 <br>
 🎓 강의 서비스
 
