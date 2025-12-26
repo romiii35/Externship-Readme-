@@ -355,7 +355,7 @@ oz_externship_be/
 |:-------:|:-------:|:-------:|:-------:|
 | 김재호(팀장) | 박진영 | 김동렬 | 황성연 |
 
-> ### [📑 발표 문서 ](https://www.miricanvas.com/v2/design/158lfyy)
+> ### [📑 발표 문서 ](https://docs.google.com/presentation/d/1l3OFxZv8vQs1G28mkx6YlnFP_QvTwepwE710hi5F97s/edit?slide=id.g3b31bd294ce_2_75#slide=id.g3b31bd294ce_2_75)
 
 <br>
 
@@ -402,7 +402,7 @@ oz_externship_be/
 
 - 개인화 추천
   - 로그인 유저 대상 추천 강의 제공
-  - 콘텐츠 기반 필터링 혼합
+  - 콘텐츠 기반 필터링
   - 사용자 선호 카테고리, 수강중인 강의 및 북마크 활용
 
 - 어드민 - 강의 관리
